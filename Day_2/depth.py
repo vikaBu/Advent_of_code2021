@@ -1,4 +1,4 @@
-data_str = open('input.txt').read().splitlines()
+strip_data = open('input.txt').read().splitlines()
 
 
 def gather_measurements(data):
@@ -37,5 +37,5 @@ def part_two_measurements(info):
     print(f"part 2 output: {output}")
 
 
-gather_measurements(data_str)
-part_two_measurements(data_str)
+gather_measurements(strip_data)
+part_two_measurements(strip_data)
